@@ -1,6 +1,6 @@
 ---
 title: Shark Surfing
-category: water sports
+type: water sports
 ---
 
 ![shark waves]({{ "/assets/images/shark_waves.jpg" | relative_url }})

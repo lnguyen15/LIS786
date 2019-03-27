@@ -10,7 +10,15 @@ Many of our exercise courses offer three levels of expertise: beginner, intermed
 ## Our current class offerings:
 {% for class in site.classes %}
 <h2>{{ class.title }}</h2>
-<p>{{ class.content }}</p>
+<p>{{ class.content | truncate: 50, '...' }}</p>
+{% endfor %}
+
+{% assign sorted_classes = site.classes | sort: "type" %}
+<h2>View by class type</h2>
+{% for class in sorted_classes %}
+ <h2>{{ class.title }}</h2>
+ <p>{{ class.content }}</p>
+ _<p>{{ class.type }}</p>_
 {% endfor %}
 
 **and more to come!**

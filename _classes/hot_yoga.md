@@ -1,6 +1,6 @@
 ---
 title: Hot Vent Yoga
-category: yoga
+type: yoga
 ---
 
 ![beach yoga]({{ "/assets/images/beach_yoga.jpg" | relative_url }})

@@ -1,6 +1,6 @@
 ---
 title: Whale Weight Training
-category: weight training
+type: weight training
 ---
 
 ![weights]({{ "/assets/images/weights.jpg" | relative_url }})
