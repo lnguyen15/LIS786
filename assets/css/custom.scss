@@ -36,9 +36,36 @@
 }
 
 img {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
 
+}
+
+.page-header {
+  position: relative;
+}
+
+.page-header:after {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(255,255,255,0.4) 0%, rgba(246,246,246,0.4) 35%, rgba(237,237,237,0.4) 100%);
+}
+
+.page-header  {
+    h1, h2 {
+    position: relative;
+    z-index: 999;
+  }
+}
+
+#main-navigation a:hover {
+  color: #f9f9f9;
+  background-color: #577e8a;
 }
 
 .clearfix::after {
