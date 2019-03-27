@@ -8,17 +8,17 @@ permalink: /classes/
 Many of our exercise courses offer three levels of expertise: beginner, intermediate, and intense, so you can decide on the right fit. Find out more about our classes below. Go ahead and register to get the workout started!
 
 ## Our current class offerings:
+### View by title:
 {% for class in site.classes %}
 <h2>{{ class.title }}</h2>
-<p>{{ class.content | truncate: 50, '...' }}</p>
+<p>{{ class.content }}</p>
 {% endfor %}
 
+### View by type:
 {% assign sorted_classes = site.classes | sort: "type" %}
-<h2>View by class type</h2>
 {% for class in sorted_classes %}
  <h2>{{ class.title }}</h2>
  <p>{{ class.content }}</p>
- _<p>{{ class.type }}</p>_
 {% endfor %}
 
 **and more to come!**
