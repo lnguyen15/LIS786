@@ -9,20 +9,8 @@ Many of our exercise courses offer three levels of expertise: beginner, intermed
 
 ## Our current class offerings:
 
-<div class="column">
-  <div class="row">
-  </div>
-  <div class="row">
-    25%
-  </div>
-  <div class="row">
-    25%
-  </div>
-  <div class="row">
-    25%
-  </div>
-</div>
 ### View by title:
+
 {% for class in site.classes %}
 <h3>{{ class.title }}</h3>
 <p>{{ class.content }}</p>
