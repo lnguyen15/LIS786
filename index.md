@@ -3,6 +3,8 @@ Title: Home
 Layout: default
 ---
 
+# Surf Gym is a concept workout space that brings the maritime to your workout time.
+
 <div class="content-right" markdown="1">
 ## Our amenities include:
 - [Sand Resistance Training]({{ "/resistance_training/" | relative_url }})
@@ -13,8 +15,6 @@ Layout: default
 </div>
 
 <div class="img-left" markdown="1">
-# Surf Gym is a concept workout space that brings the maritime to your workout time.
-
 ## Join us for Marine Muscle themed classes like:
 
 {% for class in site.classes %}
